@@ -1,0 +1,144 @@
+body{
+  background-color: #efe;
+}
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 19px;
+}
+nav{   
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #efe;
+  margin-top: -21px;
+}
+h2{  
+  background-color:#efe;
+  text-align: center;
+  font-family: Rockwell;
+  font-size: 21;
+  margin-top: 9px;
+}
+h3{
+  background-color: #fff;
+  margin-top: 0 auto;
+}
+ul{
+  list-style-type: none;
+  background-color: #efe;
+  text-align: center;
+  font-family: Rockwell;
+  margin-right: 20px;
+  margin-top: auto;
+}
+li{
+  list-style-type: none;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 15%;
+  margin-top: -3px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: yellow;
+}
+.btn:hover{
+  color: #ace;
+  cursor: pointer;
+}
+div{
+  margin: 0 auto;
+}
+div.product{
+    margin-top: 30
+}
+#form{
+  display: block;
+  flex-direction: column;
+  height: 30
+}
+#hero{
+  margin-top: 120px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#email{
+  width: 30%;
+  border: none; 
+  border-radius: 25px 0 0 25px;
+  height: 25px;
+  text-align: center;
+  margin-top: 9px
+}
+
+#submit{
+  cursor: pointer;
+  background-color: #ace;
+  color: #efe;
+  border: none;
+  border-radius: 0 25px 25px 0;
+  height: 25px;
+}
+.container{
+  height: 20px
+}
+#mind{
+  text-align: center;
+}
+#body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 270px;
+}
+#video{
+  width: 60%;
+  background-color: #333;
+  border-radius: 6px;
+}
+#soul{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.product{
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ace;
+  max-width: 300px;
+  max-height: 200px;
+  padding: 10;
+  border-radius: 25px;
+  margin-top: 15px
+}
+.option{
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px 25px 0 0;
+  padding: 3px;
+}
+.btn{
+  text-transform: uppercase;
+  margin-bottom: 9px;
+  color: #000;
+  background-color: #ace;
+  border: none;
+  border-radius: 25px;
+  padding: 6px;
+}
+@media only screen and (max-width: 720px) {
+  .page-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
