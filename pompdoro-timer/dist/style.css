@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+  font-size: 24px
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper h2 {
+  margin: 0;
+}
+
+.break-session-length {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+button {
+  borders: none;
+  padding: 8px;
+  font-size: 10px;
+  border-raduius: 4px;
+}
+
+div > button {
+  color: white;
+  background-color: #2e86de;
+}
+
+div button:nth-child(2) {
+  color: white;
+  background-color: black;
+}
+
+strong {
+  margin: 0 8px;
+}
+
+.timer {
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 10px;
+}
+
+.timer-wrapper > button {
+  margin-left: 10px;
+}
